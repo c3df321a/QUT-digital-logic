@@ -1,0 +1,7 @@
+Running: xsim.dir/Dataselector2_sim_behav/xsimk.exe -simmode gui -wdb Dataselector2_sim_behav.wdb -simrunnum 0 -socket 62132
+Design successfully loaded
+Design Loading Memory Usage: 8908 KB (Peak: 8908 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9548 KB (Peak: 9548 KB)
+Simulation CPU Usage: 0 ms

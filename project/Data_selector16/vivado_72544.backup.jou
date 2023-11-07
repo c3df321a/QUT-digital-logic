@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct 25 21:28:26 2023
+# Process ID: 72544
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46112 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\Data_selector16\Data_selector16.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/Data_selector16.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/Data_selector16.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/Data_selector16.srcs/sim_1/new/Data_selector16_sim.v w ]
+add_files -fileset sim_1 C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/Data_selector16.srcs/sim_1/new/Data_selector16_sim.v
+update_compile_order -fileset sim_1
+launch_simulation
+source Data_selector16.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+source Data_selector16_sim.tcl
+close_sim
+launch_simulation
+source Data_selector16_sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source Data_selector16_sim.tcl
+ipx::package_project -root_dir C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16 -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core c:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16 c:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16/component.xml
+update_compile_order -fileset sources_1
+set_property supported_families {qvirtex7 Production kintex7l Production qkintex7l Production artix7l Production qartix7 Production qzynq Production spartan7 Production virtexu Production kintexuplus Production kintexu Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production virtexuplus Production kintexuplus Production zynquplus Production kintexu Production virtex7 Beta qvirtex7 Beta kintex7 Beta kintex7l Beta qkintex7 Beta qkintex7l Beta artix7 Beta artix7l Beta aartix7 Beta qartix7 Beta zynq Beta qzynq Beta azynq Beta spartan7 Beta aspartan7 Beta virtexu Beta virtexuplus Beta kintexuplus Beta zynquplus Beta kintexu Beta} [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\BaSO4\Desktop\study\2023-2024\Vivado\Data_selector16\xilinx.com_user_Data_selector16_1.0.zip} [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector16
+close_sim
+close_sim

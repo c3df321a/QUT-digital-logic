@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct 18 16:21:27 2023
+# Process ID: 19312
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29596 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\basic-logic-gates\basic-logic-gates.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 16:30:43 2023...
+led to delete one or more files in run directory C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Wed Oct 18 16:22:04 2023] Launched synth_1...
+Run output will be captured here: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Wed Oct 18 16:22:51 2023] Launched impl_1...
+Run output will be captured here: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.runs/impl_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tfgg484-1
+Top: basic_gate1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 959.004 ; gain = 59.438
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'basic_gate1' [C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v:23]
+INFO: [Synth 8-256] done synthesizing module 'basic_gate1' (1#1) [C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 998.586 ; gain = 99.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 998.586 ; gain = 99.020
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1402.793 ; gain = 503.227
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1402.793 ; gain = 503.227
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 16:30:39 2023...

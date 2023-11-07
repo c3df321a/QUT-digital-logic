@@ -1,0 +1,1 @@
+-wto "5ef54797f8af4526a7bc52c46050f950" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Dataselector2_behav" "xil_defaultlib.Dataselector2" "xil_defaultlib.glbl" -log "elaborate.log" 

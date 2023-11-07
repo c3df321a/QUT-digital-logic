@@ -1,0 +1,4 @@
+Running: xsim.dir/hexseg_behav/xsimk.exe -simmode gui -wdb hexseg_behav.wdb -simrunnum 0 -socket 53510
+Design successfully loaded
+Design Loading Memory Usage: 8900 KB (Peak: 8900 KB)
+Design Loading CPU Usage: 15 ms

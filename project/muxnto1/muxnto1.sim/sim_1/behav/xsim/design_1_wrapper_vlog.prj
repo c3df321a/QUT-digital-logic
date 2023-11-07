@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../muxnto1.ip_user_files/bd/design_1/ipshared/08da/Control.srcs/sources_1/new/Control.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Control_0_0/sim/design_1_Control_0_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ipshared/9ede/Dataselector2.srcs/sources_1/new/Dataselector2.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Dataselector2_0_0/sim/design_1_Dataselector2_0_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ipshared/dfe9/Data_selector4.srcs/sources_1/new/Data_selector4.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector4_0_0/sim/design_1_Data_selector4_0_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ipshared/8a30/Data_selector8.srcs/sources_1/new/Data_selector8.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector8_0_0/sim/design_1_Data_selector8_0_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector8_0_1/sim/design_1_Data_selector8_0_1.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector8_1_0/sim/design_1_Data_selector8_1_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector8_3_0/sim/design_1_Data_selector8_3_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ipshared/df37/Data_selector16.srcs/sources_1/new/Data_selector16.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/ip/design_1_Data_selector16_0_0/sim/design_1_Data_selector16_0_0.v" \
+"../../../../muxnto1.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../muxnto1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

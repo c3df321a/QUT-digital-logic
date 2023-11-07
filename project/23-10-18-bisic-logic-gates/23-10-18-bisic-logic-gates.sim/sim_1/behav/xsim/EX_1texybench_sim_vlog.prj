@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../23-10-18-bisic-logic-gates.srcs/sources_1/new/Ex_1.v" \
+"../../../../23-10-18-bisic-logic-gates.srcs/sim_1/new/EX_1texybench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

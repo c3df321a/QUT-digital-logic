@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct 18 18:31:55 2023
+# Process ID: 13156
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/notgate/notgate.runs/synth_1
+# Command line: vivado.exe -log notgate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source notgate.tcl
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/notgate/notgate.runs/synth_1/notgate.vds
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/notgate/notgate.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source notgate.tcl -notrace

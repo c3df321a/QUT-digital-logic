@@ -1,0 +1,49 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace portBus b_0 -pg 1 -y -140 -defaultsOSRD
+preplace portBus f_0 -pg 1 -y 190 -defaultsOSRD
+preplace portBus f_1 -pg 1 -y -60 -defaultsOSRD
+preplace portBus c_0 -pg 1 -y 130 -defaultsOSRD
+preplace portBus c_1 -pg 1 -y -120 -defaultsOSRD
+preplace portBus h_0 -pg 1 -y 230 -defaultsOSRD
+preplace portBus g_0 -pg 1 -y 210 -defaultsOSRD
+preplace portBus g_1 -pg 1 -y -40 -defaultsOSRD
+preplace portBus q_0 -pg 1 -y 160 -defaultsOSRD
+preplace portBus d_0 -pg 1 -y 150 -defaultsOSRD
+preplace portBus d_1 -pg 1 -y -100 -defaultsOSRD
+preplace portBus a_0 -pg 1 -y -160 -defaultsOSRD
+preplace portBus e_0 -pg 1 -y 170 -defaultsOSRD
+preplace portBus e_1 -pg 1 -y -80 -defaultsOSRD
+preplace inst nordgate_0 -pg 1 -lvl 3 -y -290 -defaultsOSRD
+preplace inst xorgate_0 -pg 1 -lvl 2 -y -350 -defaultsOSRD
+preplace inst orgate_0 -pg 1 -lvl 5 -y 30 -defaultsOSRD
+preplace inst xorgate_1 -pg 1 -lvl 1 -y -430 -defaultsOSRD
+preplace inst notgate_0 -pg 1 -lvl 6 -y 30 -defaultsOSRD
+preplace inst nandgate_0 -pg 1 -lvl 4 -y -210 -defaultsOSRD
+preplace inst andgate_0 -pg 1 -lvl 7 -y -90 -defaultsOSRD
+preplace inst andgate_1 -pg 1 -lvl 8 -y 160 -defaultsOSRD
+preplace netloc f_1_1 1 0 7 NJ -60 N -60 N -60 N -60 310 -90 N -90 640
+preplace netloc c_0_1 1 0 8 NJ 130 NJ 130 NJ 130 NJ 130 300J 150 470J 130 NJ 130 NJ
+preplace netloc c_1_1 1 0 7 NJ -120 N -120 N -120 90 -50 300 -120 N -120 N
+preplace netloc e_0_1 1 0 8 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ
+preplace netloc d_1_1 1 0 7 NJ -100 N -100 N -100 80 -80 280 -100 N -100 N
+preplace netloc h_0_1 1 0 8 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc g_1_1 1 0 7 NJ -40 N -40 N -40 N -40 290 -130 N -130 650
+preplace netloc e_1_1 1 0 7 -410J -70 N -70 N -70 N -70 270 -140 N -140 660
+preplace netloc andgate_1_q 1 8 1 N
+preplace netloc f_0_1 1 0 8 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ
+preplace netloc d_0_1 1 0 8 NJ 150 NJ 150 NJ 150 NJ 150 270J 160 480J 150 NJ 150 NJ
+preplace netloc b_0_1 1 0 7 NJ -140 N -140 N -140 100 -90 260 -150 N -150 670
+preplace netloc g_0_1 1 0 8 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ
+preplace netloc andgate_0_q 1 7 1 830
+preplace netloc Net1 1 3 1 100
+preplace netloc Net 1 6 2 660 90 N
+preplace netloc Net2 1 0 3 -420 -550 -250 -470 -80
+preplace netloc a_0_1 1 0 7 NJ -160 N -160 N -160 80 -330 N -330 N -330 670
+preplace netloc Net3 1 0 1 -410
+levelinfo -pg 1 -440 -330 -160 0 180 390 560 750 910 1010 -top -590 -bot 280
+",
+}
+0

@@ -1,0 +1,29 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xlinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto f3bcb7046a5b432b9479534ccc032059 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.design_1_Control_0_0
+Compiling module xil_defaultlib.Data_selector16
+Compiling module xil_defaultlib.design_1_Data_selector16_0_0
+Compiling module xil_defaultlib.Data_selector4
+Compiling module xil_defaultlib.design_1_Data_selector4_0_0
+Compiling module xil_defaultlib.Data_selector8(WIDTH=1)
+Compiling module xil_defaultlib.design_1_Data_selector8_0_0
+Compiling module xil_defaultlib.Data_selector8
+Compiling module xil_defaultlib.design_1_Data_selector8_0_1
+Compiling module xil_defaultlib.Data_selector8(WIDTH=16)
+Compiling module xil_defaultlib.design_1_Data_selector8_1_0
+Compiling module xil_defaultlib.Data_selector8(WIDTH=32)
+Compiling module xil_defaultlib.design_1_Data_selector8_3_0
+Compiling module xil_defaultlib.Dataselector2
+Compiling module xil_defaultlib.design_1_Dataselector2_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_behav
