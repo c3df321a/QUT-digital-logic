@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x39CF8F8375838F61" bd:device="xc7a100tfgg484-1" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2017.4" bd:top="design_1" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>CLK.CLK</spirit:name>
+        <spirit:displayName>Clk</spirit:displayName>
+        <spirit:description>Clock</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>FREQ_HZ</spirit:name>
+            <spirit:value>100000000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>PHASE</spirit:name>
+            <spirit:value>0.000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>CLK_DOMAIN</spirit:name>
+            <spirit:value>design_1_CLK_0</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="design_1_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>CLK</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>CLR</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>WEN</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_5</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_5</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_5</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_6</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_6</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_6</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>D_7</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>NQ_7</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Q_7</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_2</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_4</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_5</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_5</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_6</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_6</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>dffe_7</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="dffe" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_dffe_0_7</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>CLK_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="CLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>CLR_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="CLR"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="CLR"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_0"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_0_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_0_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>WEN_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_0" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="WEN"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="WEN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_1"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_1_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_1_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_1" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_2"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_2_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_2_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_2" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_3_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_3"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_3_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_3_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_3" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_4_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_4"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_4_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_4"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_4_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_4" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_4"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_5_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_5"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_5_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_5"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_5_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_5" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_5"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_6_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_6"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_6_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_6"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_6_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_6" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_6"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>D_7_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="D_7"/>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="D"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_7_NQ</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="NQ"/>
+        <spirit:externalPortReference spirit:portRef="NQ_7"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dffe_7_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dffe_7" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="Q_7"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

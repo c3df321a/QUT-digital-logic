@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov  8 15:46:24 2023
+# Process ID: 44604
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/dffe/dffe.runs/impl_1
+# Command line: vivado.exe -log dffe.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dffe.tcl -notrace
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/dffe/dffe.runs/impl_1/dffe.vdi
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/dffe/dffe.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source dffe.tcl -notrace

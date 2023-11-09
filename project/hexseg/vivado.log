@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov  8 14:22:19 2023
+# Process ID: 99412
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent105308 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\hexseg\hexseg.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/hexseg' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 16
+[Wed Nov  8 14:23:49 2023] Launched synth_1...
+Run output will be captured here: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.runs/synth_1/runme.log
+[Wed Nov  8 14:23:49 2023] Launched impl_1...
+Run output will be captured here: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.runs/impl_1/runme.log
+ipx::package_project -root_dir C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core c:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg c:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+set_property supported_families {qvirtex7 Production kintex7l Production qkintex7l Production artix7l Production qartix7 Production qzynq Production spartan7 Production virtexu Production kintexuplus Production kintexu Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production virtexuplus Production kintexuplus Production zynquplus Production kintexu Production virtex7 Beta qvirtex7 Beta kintex7 Beta kintex7l Beta qkintex7 Beta qkintex7l Beta artix7 Beta artix7l Beta aartix7 Beta qartix7 Beta zynq Beta qzynq Beta azynq Beta spartan7 Beta aspartan7 Beta virtexu Beta virtexuplus Beta kintexuplus Beta zynquplus Beta kintexu Beta} [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\BaSO4\Desktop\study\2023-2024\project\project\hexseg\xilinx.com_user_hexseg_1.0.zip} [ipx::current_core]
+close_project
+set_property  ip_repo_paths  c:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  8 14:27:23 2023...

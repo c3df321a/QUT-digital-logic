@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov  8 14:23:50 2023
+# Process ID: 104916
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.runs/synth_1
+# Command line: vivado.exe -log hexseg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hexseg.tcl
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.runs/synth_1/hexseg.vds
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/hexseg/hexseg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source hexseg.tcl -notrace

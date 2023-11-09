@@ -1,0 +1,70 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port NQ_4 -pg 1 -y 410 -defaultsOSRD
+preplace port Q_3 -pg 1 -y 240 -defaultsOSRD
+preplace port D_3 -pg 1 -y 240 -defaultsOSRD
+preplace port NQ_5 -pg 1 -y 560 -defaultsOSRD
+preplace port Q_4 -pg 1 -y 390 -defaultsOSRD
+preplace port D_4 -pg 1 -y 390 -defaultsOSRD
+preplace port CLR -pg 1 -y -190 -defaultsOSRD
+preplace port NQ_6 -pg 1 -y 710 -defaultsOSRD
+preplace port Q_5 -pg 1 -y 540 -defaultsOSRD
+preplace port D_5 -pg 1 -y 540 -defaultsOSRD
+preplace port NQ_7 -pg 1 -y 860 -defaultsOSRD
+preplace port Q_6 -pg 1 -y 690 -defaultsOSRD
+preplace port D_6 -pg 1 -y 690 -defaultsOSRD
+preplace port Q_7 -pg 1 -y 840 -defaultsOSRD
+preplace port D_7 -pg 1 -y 840 -defaultsOSRD
+preplace port CLK -pg 1 -y -170 -defaultsOSRD
+preplace port WEN -pg 1 -y -230 -defaultsOSRD
+preplace port NQ_0 -pg 1 -y -190 -defaultsOSRD
+preplace port NQ_1 -pg 1 -y -40 -defaultsOSRD
+preplace port Q_0 -pg 1 -y -210 -defaultsOSRD
+preplace port D_0 -pg 1 -y -210 -defaultsOSRD
+preplace port NQ_2 -pg 1 -y 110 -defaultsOSRD
+preplace port Q_1 -pg 1 -y -60 -defaultsOSRD
+preplace port D_1 -pg 1 -y -60 -defaultsOSRD
+preplace port NQ_3 -pg 1 -y 260 -defaultsOSRD
+preplace port Q_2 -pg 1 -y 90 -defaultsOSRD
+preplace port D_2 -pg 1 -y 90 -defaultsOSRD
+preplace inst dffe_2 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst dffe_3 -pg 1 -lvl 1 -y 250 -defaultsOSRD
+preplace inst dffe_4 -pg 1 -lvl 1 -y 400 -defaultsOSRD
+preplace inst dffe_5 -pg 1 -lvl 1 -y 550 -defaultsOSRD
+preplace inst dffe_6 -pg 1 -lvl 1 -y 700 -defaultsOSRD
+preplace inst dffe_7 -pg 1 -lvl 1 -y 850 -defaultsOSRD
+preplace inst dffe_0 -pg 1 -lvl 1 -y -200 -defaultsOSRD
+preplace inst dffe_1 -pg 1 -lvl 1 -y -50 -defaultsOSRD
+preplace netloc D_6_1 1 0 1 N
+preplace netloc D_5_1 1 0 1 N
+preplace netloc dffe_4_NQ 1 1 1 NJ
+preplace netloc D_3_1 1 0 1 N
+preplace netloc dffe_4_Q 1 1 1 NJ
+preplace netloc dffe_2_NQ 1 1 1 NJ
+preplace netloc dffe_1_NQ 1 1 1 NJ
+preplace netloc CLR_0_1 1 0 1 0J
+preplace netloc dffe_7_NQ 1 1 1 NJ
+preplace netloc dffe_5_Q 1 1 1 NJ
+preplace netloc WEN_0_1 1 0 1 10J
+preplace netloc D_7_1 1 0 1 N
+preplace netloc dffe_3_Q 1 1 1 NJ
+preplace netloc dffe_2_Q 1 1 1 NJ
+preplace netloc dffe_5_NQ 1 1 1 NJ
+preplace netloc dffe_6_Q 1 1 1 NJ
+preplace netloc D_2_1 1 0 1 N
+preplace netloc dffe_1_Q 1 1 1 NJ
+preplace netloc dffe_0_Q 1 1 1 NJ
+preplace netloc D_1_1 1 0 1 N
+preplace netloc CLK_0_1 1 0 1 -10J
+preplace netloc dffe_7_Q 1 1 1 NJ
+preplace netloc dffe_6_NQ 1 1 1 NJ
+preplace netloc D_0_1 1 0 1 NJ
+preplace netloc D_4_1 1 0 1 N
+preplace netloc dffe_3_NQ 1 1 1 NJ
+preplace netloc dffe_0_NQ 1 1 1 NJ
+levelinfo -pg 1 -30 80 460 -top -470 -bot 930
+",
+}
+

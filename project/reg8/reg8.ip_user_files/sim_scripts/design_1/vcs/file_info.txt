@@ -1,0 +1,11 @@
+dffe.v,verilog,xil_defaultlib,../../../bd/design_1/ipshared/a617/dffe.srcs/sources_1/new/dffe.v,
+design_1_dffe_0_0.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_0/sim/design_1_dffe_0_0.v,
+design_1_dffe_0_1.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_1/sim/design_1_dffe_0_1.v,
+design_1_dffe_0_2.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_2/sim/design_1_dffe_0_2.v,
+design_1_dffe_0_3.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_3/sim/design_1_dffe_0_3.v,
+design_1_dffe_0_4.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_4/sim/design_1_dffe_0_4.v,
+design_1_dffe_0_5.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_5/sim/design_1_dffe_0_5.v,
+design_1_dffe_0_6.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_6/sim/design_1_dffe_0_6.v,
+design_1_dffe_0_7.v,verilog,xil_defaultlib,../../../bd/design_1/ip/design_1_dffe_0_7/sim/design_1_dffe_0_7.v,
+design_1.v,verilog,xil_defaultlib,../../../bd/design_1/sim/design_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

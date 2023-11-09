@@ -1,0 +1,51 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Nov  8 15:47:09 2023
+| Host         : LAPTOP-N4GO34NJ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file dffe_methodology_drc_routed.rpt -pb dffe_methodology_drc_routed.pb -rpx dffe_methodology_drc_routed.rpx
+| Design       : dffe
+| Device       : xc7a100tifgg484-1L
+| Speed File   : -1L
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+-----------------------------+------------+
+| Rule      | Severity | Description                 | Violations |
++-----------+----------+-----------------------------+------------+
+| TIMING-17 | Warning  | Non-clocked sequential cell | 2          |
+| TIMING-20 | Warning  | Non-clocked latch           | 1          |
++-----------+----------+-----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin Q_reg_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin Q_reg_P/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Q_reg_LDC cannot be properly analyzed as its control pin Q_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+
