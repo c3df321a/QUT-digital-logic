@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov  9 14:30:31 2023
+# Process ID: 110596
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent84008 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg8\reg8.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/reg8.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BaSO4/Desktop/IPpackage/xilinx.com_user_dffe_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/reg8.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_0
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_1
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_2
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_3
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_4
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_5
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_6
+Adding cell -- xilinx.com:user:dffe:1.0 - dffe_7
+Successfully read diagram <design_1> from BD file <C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/reg8.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 925.801 ; gain = 88.523
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  9 14:31:28 2023...

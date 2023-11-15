@@ -2,14 +2,13 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Thu Nov  9 14:30:31 2023
-# Process ID: 110596
-# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent84008 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg8\reg8.xpr
-# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/vivado.log
-# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8\vivado.jou
+# Start of session at: Wed Nov 15 15:16:13 2023
+# Process ID: 141232
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent103284 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg\reg8\reg8.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/reg8.xpr
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8/reg8.xpr
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8/reg8.srcs/sources_1/bd/design_1/design_1.bd}
