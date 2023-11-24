@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Wed Nov 15 15:16:13 2023
-# Process ID: 141232
+# Start of session at: Thu Nov 23 10:58:30 2023
+# Process ID: 28740
 # Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent103284 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg\reg8\reg8.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19884 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg\reg8\reg8.xpr
 # Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8/vivado.log
 # Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8\vivado.jou
 #-----------------------------------------------------------

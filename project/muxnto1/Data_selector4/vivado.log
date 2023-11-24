@@ -2,20 +2,22 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Wed Nov  1 15:59:37 2023
-# Process ID: 87944
-# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent83704 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\Data_selector4\Data_selector4.xpr
-# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4/vivado.log
-# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4\vivado.jou
+# Start of session at: Thu Nov 23 11:16:06 2023
+# Process ID: 7104
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14464 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\muxnto1\Data_selector4\Data_selector4.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector4/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector4\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4/Data_selector4.xpr
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector4/Data_selector4.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector4'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 826.422 ; gain = 110.246
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Nov  1 19:18:48 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 23 11:20:10 2023...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov  1 15:59:37 2023
+# Process ID: 87944
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent83704 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\Data_selector4\Data_selector4.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector4/Data_selector4.xpr
+update_compile_order -fileset sources_1

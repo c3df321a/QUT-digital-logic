@@ -1,8 +1,7 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module basic_gate1
 INFO: [VRFC 10-311] analyzing module basic_gate2
 INFO: [VRFC 10-311] analyzing module basic_gate3
 INFO: [VRFC 10-311] analyzing module basic_gate4
-INFO: [VRFC 10-311] analyzing module basic_gate5
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.srcs/sim_1/new/textbench.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sim_1/new/textbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module textbench

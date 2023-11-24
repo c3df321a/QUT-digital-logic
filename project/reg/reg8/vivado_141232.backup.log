@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Nov 15 15:16:13 2023
+# Process ID: 141232
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent103284 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\reg\reg8\reg8.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg/reg8/reg8.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/reg8' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/BaSO4/Desktop/study/IPpackage/xilinx.com_user_dffe_1.0'; using path 'C:/Users/BaSO4/Desktop/IPpackage/xilinx.com_user_dffe_1.0' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/BaSO4/Desktop/IPpackage/xilinx.com_user_dffe_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 15:39:30 2023...

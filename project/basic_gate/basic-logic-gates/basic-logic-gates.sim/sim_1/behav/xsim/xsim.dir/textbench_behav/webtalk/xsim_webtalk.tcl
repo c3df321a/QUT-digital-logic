@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/
+webtalk_init -webtalk_dir C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed Oct 18 16:10:47 2023" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Nov 23 20:44:41 2023" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2017.4 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2086221" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "0eba4c2b-9748-4e80-b23e-35a00b6f3e4c" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "a10d5f23b4084e9ba170b993ddd838d5" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "10" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 7 5800H with Radeon Graphics         " -context "user_environment"
@@ -26,7 +26,7 @@ webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
 webtalk_add_data -client xsim -key runtime -value "1 us" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.00_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "8904_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3561283972 -regid "" -xml C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.01_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "8408_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 1880967777 -regid "" -xml C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

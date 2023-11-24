@@ -52,16 +52,5 @@ module basic_gate4(
                 input d,
                 output out
 );
-assign out=~(a|b|c|d);
-endmodule
-
-
-module basic_gate5(
-                input a,
-                input b,
-                input c,
-                input d,
-                output out
-);
-assign out=~(a&b&c&d);
+assign out=~((a&b)|(c&d));
 endmodule

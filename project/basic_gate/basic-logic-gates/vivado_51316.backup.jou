@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Oct 27 15:24:40 2023
+# Process ID: 51316
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43268 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\basic-logic-gates\basic-logic-gates.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.xpr
+update_compile_order -fileset sources_1

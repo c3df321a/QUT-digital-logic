@@ -2,28 +2,13 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Fri Oct 27 15:25:43 2023
-# Process ID: 47648
-# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector8
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent74528 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\Data_selector8\Data_selector8.xpr
-# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector8/vivado.log
-# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector8\vivado.jou
+# Start of session at: Thu Nov 23 11:16:01 2023
+# Process ID: 11296
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4408 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\muxnto1\Data_selector8\Data_selector8.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector8/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector8\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/Data_selector8/Data_selector8.xpr
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/muxnto1/Data_selector8/Data_selector8.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-source Dataselector8_sim.tcl
-close_sim
-launch_simulation
-source Dataselector8_sim.tcl
-close_sim
-launch_simulation
-source Dataselector8_sim.tcl
-close_sim
-launch_simulation
-source Dataselector8_sim.tcl
-close_sim
-launch_simulation
-source Dataselector8_sim.tcl
-close_sim

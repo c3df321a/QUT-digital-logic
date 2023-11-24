@@ -2,20 +2,155 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Fri Oct 27 15:24:40 2023
-# Process ID: 51316
-# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43268 C:\Users\BaSO4\Desktop\study\2023-2024\Vivado\basic-logic-gates\basic-logic-gates.xpr
-# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/vivado.log
-# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates\vivado.jou
+# Start of session at: Thu Nov 23 19:48:49 2023
+# Process ID: 20188
+# Current directory: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15224 C:\Users\BaSO4\Desktop\study\2023-2024\project\project\basic_gate\basic-logic-gates\basic-logic-gates.xpr
+# Log file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/vivado.log
+# Journal file: C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates/basic-logic-gates.xpr
+open_project C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates'
+INFO: [Project 1-313] Project file moved from 'C:/Users/BaSO4/Desktop/study/2023-2024/Vivado/basic-logic-gates' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx/Vivado/2017.4/data/ip'.
 update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'textbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj textbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module basic_gate1
+INFO: [VRFC 10-311] analyzing module basic_gate2
+INFO: [VRFC 10-311] analyzing module basic_gate3
+INFO: [VRFC 10-311] analyzing module basic_gate4
+INFO: [VRFC 10-311] analyzing module basic_gate5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sim_1/new/textbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module textbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xlinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a10d5f23b4084e9ba170b993ddd838d5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot textbench_behav xil_defaultlib.textbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.basic_gate1
+Compiling module xil_defaultlib.basic_gate2
+Compiling module xil_defaultlib.basic_gate3
+Compiling module xil_defaultlib.basic_gate4
+Compiling module xil_defaultlib.basic_gate5
+Compiling module xil_defaultlib.textbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot textbench_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim/xsim.dir/textbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 23 19:51:17 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "textbench_behav -key {Behavioral:sim_1:Functional:textbench} -tclbatch {textbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source textbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'textbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 941.652 ; gain = 0.027
+ipx::package_project -root_dir c:/users/baso4/desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs -vendor xilinx.com -library user -taxonomy /UserIP
+ipx::unload_core c:/users/baso4/desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/component.xml
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'textbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj textbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sources_1/new/basic_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module basic_gate1
+INFO: [VRFC 10-311] analyzing module basic_gate2
+INFO: [VRFC 10-311] analyzing module basic_gate3
+INFO: [VRFC 10-311] analyzing module basic_gate4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.srcs/sim_1/new/textbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module textbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xlinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a10d5f23b4084e9ba170b993ddd838d5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot textbench_behav xil_defaultlib.textbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.basic_gate1
+Compiling module xil_defaultlib.basic_gate2
+Compiling module xil_defaultlib.basic_gate3
+Compiling module xil_defaultlib.basic_gate4
+Compiling module xil_defaultlib.textbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot textbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/BaSO4/Desktop/study/2023-2024/project/project/basic_gate/basic-logic-gates/basic-logic-gates.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "textbench_behav -key {Behavioral:sim_1:Functional:textbench} -tclbatch {textbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source textbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'textbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 986.020 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Oct 27 16:55:40 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 23 20:44:43 2023...
