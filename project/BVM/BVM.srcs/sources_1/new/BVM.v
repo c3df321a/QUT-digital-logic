@@ -20,17 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module BVM(coin,drink,charge,CLK,RSTN);
+module BVM(coin,drink,charge,CLK,RSTN,type);
 input [1:0] coin;
 input CLK;
 input RSTN;
-output reg drink;
+input [1:0] type;
+output reg [1:0] drink;
 output reg [1:0] charge;
 
-parameter GET00   = 3'd0 ;
-parameter GET05  = 3'd1 ;
-parameter GET10  = 3'd2 ;
-
+parameter GET00   = 2'd00 ;
+parameter GET05  = 2'd01;
+parameter GET10  = 2'd10;
 reg [2:0] next;
 reg [2:0] now;
 
@@ -82,12 +82,12 @@ end
 else if((now == GET05 && coin == 2'b10)||(now == GET10 && coin == 2'b01))
 begin
     charge <= 2'b0;
-    drink <= 1'b1;
+    drink <= type;
 end
 else if(now == GET10 && coin == 2'b10)
 begin
     charge <= 2'b01;
-    drink <= 1'b1;
+    drink <= type;
 end
 else
 begin
